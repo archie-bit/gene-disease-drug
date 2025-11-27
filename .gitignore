@@ -1,0 +1,45 @@
+# Byte-compiled / optimal / generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Package installation
+*.egg-info/
+.installed.cfg
+/dist/
+/build/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+
+# Data and Logs - Ignore all data files and logs
+#############################################
+
+# 1. Raw Data (The data you extract)
+# Put all your raw data files in a specific folder and ignore the whole folder.
+# Example: if your script extracts data to a 'data/' or 'raw/' folder:
+data/
+raw/
+/extracted_files/
+
+# 2. Processed/Transformed Data
+# You only need the code to generate the processed data, not the processed data itself.
+/processed/
+/staging/
+
+# 3. Large files by extension (e.g., if you sometimes place a large one-off file)
+*.csv
+*.xlsx
+*.parquet
+*.zip
+*.tar.gz
+*.hdf5
+
+# 4. Log Files (Generated during runtime)
+*.log
+logs/
